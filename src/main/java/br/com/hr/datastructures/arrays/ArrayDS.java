@@ -1,3 +1,5 @@
+package br.com.hr.datastructures.arrays;
+
 import java.util.Scanner;
 
 public class ArrayDS {
@@ -5,6 +7,8 @@ public class ArrayDS {
     private static final Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
+
+        // Print the reversed array
         int n = Integer.parseInt(scan.nextLine().trim());
 
         if(n < 1 || n > Math.pow(10,3)) {
