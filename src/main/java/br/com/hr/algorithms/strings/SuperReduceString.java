@@ -8,18 +8,20 @@ public class SuperReduceString {
 
     public static void main(String[] args) {
 
-        // String s = "aabc";
-        String s = scan.next();
+        String s = "aabc";
+        // String s = scan.next();
 
-        // String s1 = "aaabccddd";
-        // String s2 = "abba"; 
+        String s1 = "aaabccddd";
+        String s2 = "abba"; 
+        String s3 = "a";
         if (s.length() < 1 || s.length() > 100) {
             System.exit(0);
         }
         scan.close();
         reduzString(s);
-        // reduzString(s1);
-        // reduzString(s2);
+        reduzString(s1);
+        reduzString(s2);
+        reduzString(s3);
     }
 
     private static void reduzString(String str) {
