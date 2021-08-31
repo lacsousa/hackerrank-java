@@ -2,7 +2,7 @@ package br.com.hr.datastructures.linkedlists;
 
 import java.util.Scanner;
 
-public class PrintLinkedList {
+public class InsertHeadLinkedList {
 
   private static final Scanner scanner = new Scanner(System.in);
 
@@ -11,13 +11,13 @@ public class PrintLinkedList {
 
     System.out.println("Quantos elementos? ");
     int llistCount = scanner.nextInt();
-    scanner.skip("(\r\n|[\n\r\u2028\u20295\u0085])?");
+    scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
     System.out.println("Digite os elementos da LinkedList: ");
     for (int i = 0; i < llistCount; i++) {
       int llistItem = scanner.nextInt();
       scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-      llist.insertNode(llistItem);
+      llist.insertNodeAtHead(llistItem);
     }
 
     printLinkedList(llist.head);
@@ -43,20 +43,13 @@ public class PrintLinkedList {
       this.head = null;
     }
 
-    public void insertNode(int nodeData) {
+    public void insertNodeAtHead(int nodeData) {
+
+      Node newHead = new Node(nodeData);
+      newHead.next = head;
+      head = newHead;
       
-      if (head == null) {
-        head = new Node(nodeData);
-        System.out.println(" Inseriu no head: " + this.head.data);
-        return;
-      }
-      
-      Node current = head;
-      while (current.next != null) {
-        current = current.next;
-      }
-      current.next = new Node(nodeData);
-      System.out.println(" Inseriu no final da LinkedList : " + current.next.data);
+     System.out.println(" Inseriu no início da LinkedList : " + head.data);
     }
   }
 

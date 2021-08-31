@@ -8,6 +8,7 @@ public class LinkedList {
 
     if (head == null){
       head = new Node(data);
+      return;
     }
 
     Node current = head;

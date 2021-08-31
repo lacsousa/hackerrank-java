@@ -1,0 +1,36 @@
+package br.com.hr.datastructures.linkedlists;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class TestesEntrada {
+
+  public static void main(String[] args) {
+    SinglyLinkedList llist = new SinglyLinkedList();
+
+    System.out.println("Quantos elementos? ");
+    int n = scanner.nextInt();
+    scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+    System.out.println("Digite os elementos da LinkedList: ");
+    for (int i = 0; i < n; i++) {
+      int llistItem = scanner.nextInt();
+      scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+      llist.insertNode(llistItem);
+    }
+
+    System.out.println("Digite o novo elemento da LinkedList: ");
+    int novoElemento = scanner.nextInt();
+
+    System.out.println("Digite a posição do novo elemento da LinkedList: ");
+    int position = scanner.nextInt();
+
+    System.out.println(" ------- ");
+
+    llist.insertNodeAtPosition(novoElemento, position);
+
+    printLinkedList(llist.head);
+    scanner.close();
+  }
+}
+

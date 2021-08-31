@@ -1,0 +1,126 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch APlusB",
+      "request": "launch",
+      "mainClass": "APlusB",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch AlgorithmsIntro",
+      "request": "launch",
+      "mainClass": "AlgorithmsIntro",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Arithmetic",
+      "request": "launch",
+      "mainClass": "Arithmetic",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch BinaryString",
+      "request": "launch",
+      "mainClass": "BinaryString",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch JavaOutputFormat",
+      "request": "launch",
+      "mainClass": "JavaOutputFormat",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch StdInStdOut",
+      "request": "launch",
+      "mainClass": "StdInStdOut",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch SuperReduceString",
+      "request": "launch",
+      "mainClass": "br.com.hr.algorithms.strings.SuperReduceString",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayDS",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.arrays.ArrayDS",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch LeftRotate",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.arrays.LeftRotate",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxSumHourGlass",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.arrays.MaxSumHourGlass",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxSumHourGlass2",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.arrays.MaxSumHourGlass2",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch MaxSumHourGlass3",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.arrays.MaxSumHourGlass3",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch SparseArrays",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.arrays.SparseArrays",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch InsertAtPositionLinkedList",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.linkedlists.InsertAtPositionLinkedList",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch InsertHeadLinkedList",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.linkedlists.InsertHeadLinkedList",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch PrintLinkedList",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.linkedlists.PrintLinkedList",
+      "projectName": "hackerrank-java"
+    }
+  ]
+}
