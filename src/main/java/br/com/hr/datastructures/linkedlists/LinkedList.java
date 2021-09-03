@@ -17,7 +17,7 @@ public class LinkedList {
     }
     current.next = new Node(data);
   }
-
+  
 
   public void prepend(int data) { //adicionar no início
     Node newHead = new Node(data);

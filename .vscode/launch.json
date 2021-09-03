@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Solution",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.linkedlists.Solution",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
+      "name": "Launch InsertAtTailLinkedList",
+      "request": "launch",
+      "mainClass": "br.com.hr.datastructures.linkedlists.InsertAtTailLinkedList",
+      "projectName": "hackerrank-java"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"

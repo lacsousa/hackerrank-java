@@ -15,7 +15,6 @@ public class InsertAtPositionLinkedList {
     insertNodeAtPosition(llist.head, 1, 2);
 
     printLinkedList(llist.head);
-
   }
 
 
